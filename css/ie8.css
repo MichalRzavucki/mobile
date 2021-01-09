@@ -1,0 +1,5 @@
+/*----------------- Content -----------------*/
+.content {
+	background: url(../img/content-bg.gif) repeat-x;
+	background-position: 1px bottom; /* Hack for Background */
+}

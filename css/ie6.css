@@ -1,0 +1,61 @@
+/*----------------- Header -----------------*/
+/* Logo */
+a.launchpad {
+	padding-left: 48px;
+	font-size: 22px;
+}
+
+/* Header h3 */
+header nav a {
+	font-size: 15px;
+}
+
+header h1{
+	font-size: 45px;
+	margin-top: 47px;
+}
+
+figcaption {
+	width: 960px;
+}
+
+header img {
+	width: 960px;
+}
+
+/* Header download-link */
+header a.download{
+	padding: 12px 0 23px 0;
+}
+
+/*----------------- Content -----------------*/
+.content {
+	background:url(../img/content-bg.gif) repeat-x;
+	background-position: 1px bottom; /* Hack for Background */
+}
+
+/*----------------- Social Links -----------------*/
+/* Our customers  social links */
+ul.social li {
+	display: inline;
+}
+
+/*----------------- Footer -----------------*/
+footer nav {
+	width: 510px;
+	margin-bottom: -20px;
+	float: left;
+	height: 50px;
+}
+
+footer nav a {
+	padding-left: 32px;
+}
+
+footer nav a.first {
+	padding-left: 0;
+}
+
+footer p{
+	margin-top: 20px;
+}

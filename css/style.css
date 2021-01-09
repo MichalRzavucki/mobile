@@ -1,0 +1,561 @@
+/*----------------- Reset Style -----------------*/
+@import "reset.css";
+
+/*----------------- Font Face -----------------*/
+@font-face {
+	font-family: "Proxima-Nova";
+	src: url(../fonts/ProximaNova-Regular.otf);
+}
+
+/*----------------- Common Styles -----------------*/
+.page {
+	width: 90%; /* 1425 */
+	margin: auto;
+}
+
+html {
+	margin: auto;
+}
+
+body {
+	font: normal 100% "Proxima-Nova", Arial, Sans-Serif;
+	color: #222;
+	width: 100%;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	font-weight: normal;
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2.5em; /* 40 / 16 */
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h1 strong, h2 strong {
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*----------------- Header -----------------*/
+header {
+	padding: 47px 0 77px 0;
+}
+
+header a {
+	color: #d3d3d3;
+}
+
+header a:hover {
+	color: #333;
+}
+
+/* Header - Devices */
+header figure {
+	width: 54.17543859649123%; /* 772 / 1425 */
+	margin: auto;
+}
+
+header img {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+/* Logo */
+a.launchpad {
+	text-transform: uppercase;
+	font-size: 1.5em; /* 24 / 16 */
+	padding: 0.08em  1.363636363636364em;  /* 8 / 100 | 30 / 220 */
+	background: url(../img/rocket-logo.gif) no-repeat;
+	float: left;
+	width: 12.07017543859649%; /* 172 / 1425 */
+	height: 3.733333333333333%; /* 28 / 75 */
+}
+
+/* Navigation */
+header nav {
+	float: right;
+}
+
+header nav a {
+	float: left;
+	padding-left: 1.875em; /* 30 / 16 */
+	line-height: 1.5625em; /* 25 / 16 */
+	font-size: 1em;
+}
+
+/* Header h1 */
+header h1 {
+	clear: both;
+	margin-top: 1.83em;
+}
+
+/* Header h3 */
+header h3 {
+	font-size: 1.5em; /* 24 / 16 */
+	line-height: 2.5em; /* 40 / 16*/
+}
+
+/* Header download-link */
+header a.download {
+	display: block;
+	margin: auto;
+	background: url(../img/free-download.gif) no-repeat;
+	width: 243px;
+	height: 42px;
+	font-size: 1.125em;
+	color: #fff;
+	text-align: center;
+	padding-top: 13px;
+	margin-top: 21px;
+	opacity: 0.5;
+}
+
+header a.download:hover {
+	opacity: 1;
+}
+
+/* Header paragraph with links */
+header p {
+	text-align: center;
+}
+
+header p.download a {
+	color: #1d76dd;
+}
+
+header p.download a:hover {
+	color: #74b9f9;
+}
+
+/*----------------- Content -----------------*/
+.content {
+	padding-top: 77px;
+	padding-bottom: 72px;
+	background: #ccc; /* Old browsers */
+	background: linear-gradient(to bottom, #e3e3e3 0%, #e9e9e9 0%, #efefef 1%, #f7f7f7 2%, #f7f7f7 98%, #efefef 99%, #ebebeb 100%, #dedede 100%); /* W3C */
+
+}
+
+/* Content figure */
+div.features figure {
+	width: 100%; /* 1425 */
+	height: 16.42105263157895%;  /* 234 / 1425 */
+	margin: auto;
+	padding-top: 128px; /*128 / (796 - 77) 719*/
+}
+
+div.features figure img {
+	max-width: 100%;
+	display: block;
+	margin: auto;
+}
+
+/*----------------- Our Customers -----------------*/
+.our-customers {
+	height: 405px;
+	padding-top: 77px;
+}
+
+.our-customers div.images-wrap {
+	height: 356px;
+	margin: auto;
+	text-align: center;
+}
+
+/* Our customers figure */
+.our-customers div.images-wrap figure {
+	margin-left: 25px;
+	padding-top: 82px;
+	width: 15.57894736842105%; /* 222 / 1425 */
+	display: inline-block;
+}
+
+.our-customers div.images-wrap figure img {
+	box-shadow: 1px 1px 5px #999;
+	border: 1px solid #ddd;
+	padding: 5px;
+	max-width: 100%;
+}
+
+.our-customers div.images-wrap figure:first-child {
+	margin-left: 0;
+}
+
+.our-customers div.images-wrap figcaption{
+	width: 210px;
+	margin: auto;
+}
+
+.our-customers div.images-wrap figcaption h5 {
+	font-weight: bold;
+	margin-top: 20px;
+	text-align: left;
+}
+
+.our-customers div.images-wrap p {
+	font-size: 14px;
+	margin-top: 5px;
+	color: #636363;
+	text-align: left;
+}
+
+/*----------------- Social Links -----------------*/
+.social-wrap{
+	height: 145px;
+	margin: 60px 0;
+}
+
+.social-title h2 {
+	margin-top: 80px; /* 100 / 707 */
+	text-align: center;
+}
+
+/* Our customers  social links */
+ul.social {
+	text-align: center;
+	margin-top: 20px;
+}
+
+ul.social li {
+	margin-left: 15px;
+	display: inline-block;
+	opacity: 0.5;
+}
+
+ul.social  li:first-child {
+	margin-left: 0;
+}
+
+ul.social  li:hover {
+	opacity: 1;
+}
+
+ul.social li a {
+	display: block;
+	height: 42px;
+	width: 41px;
+	text-indent: -9999px;
+}
+
+ul.social li.twitter {
+	background: url(../img/social.png) no-repeat;
+}
+
+ul.social li.facebook {
+	background: url(../img/social.png) no-repeat -41px 0;
+}
+
+ul.social li.google {
+	background: url(../img/social.png) no-repeat -82px 0;
+}
+
+ul.social li.google {
+	background: url(../img/social.png) no-repeat -82px 0;
+}
+
+ul.social li.pinterest {
+	background: url(../img/social.png) no-repeat -123px 0;
+}
+
+ul.social li.linkedin {
+	background: url(../img/social.png) no-repeat -164px 0;
+}
+
+/*----------------- Footer -----------------*/
+footer {
+	/* height: 70px; */
+	border-top: 1px solid #c3c3c3;
+	color: #b0b0b0;
+	/* clear: both; */
+}
+
+/* Foter Navigation */
+footer nav {
+	margin: 25px 0;
+	width: 500px;
+}
+
+footer nav a {
+	padding-left: 6.4%; /* 32 / 500 */
+	color: #b0b0b0;
+}
+
+footer nav a:hover {
+	color: #333;
+}
+
+footer nav a:first-child {
+	padding-left: 0;
+}
+
+/* Footer Copyright */
+footer p {
+	width: 260px;
+	margin-top: -42px;
+	float: right;
+}
+
+/*----------------- Max-Width 530px -----------------*/
+@media only screen and (max-width: 530px) {
+	/*----------------- header -----------------*/
+	header{
+		padding-top: 20px;
+	}
+
+	/* Logo */
+	header a.launchpad {
+		float: none;
+		width: 100%;
+		display: inline;
+		text-align: center;
+		padding-right: 0;
+	}
+
+	/* Navigation */
+	header nav {
+		text-align: center;
+		margin-top: 40px;
+		float: none;
+	}
+	header nav a {
+		float: none;
+		padding-left: 20px;
+	}
+	header nav a:first-child {
+		padding-left: 0;
+	}
+
+	/* Header h1 */
+	header h1 {
+		margin-top: 40px;
+	}
+
+	/* Header h3 */
+	header h3 {
+		line-height: 30px;
+		margin: 20px 0;
+	}
+
+	/*----------------- Our Customers -----------------*/
+	.our-customers {
+		height: 1400px;
+	}
+
+	/* Our customers figure */
+	.our-customers div.images-wrap figure {
+		width: 100%;
+		margin-left: 0;
+		padding-top: 42px;
+	}
+	.our-customers div.images-wrap figcaption{
+		margin-top: 20px;
+	}
+	.our-customers h1 {
+		padding: 0 1em;
+	}
+
+	/*----------------- Social Links -----------------*/
+	.social-wrap {
+		height: 100px;
+		margin: 20px 0 100px 0;
+	}
+
+	/*----------------- Footer -----------------*/
+	footer {
+		height: 150px;
+	}
+	footer nav {
+		width: 100%;
+		text-align: center;
+	}
+	footer nav a {
+		line-height: 25px;
+	}
+	footer p {
+		width: 100%;
+		float: none;
+		margin: 0;
+		text-align: center;
+	}
+}
+
+/*----------------- Min-Width 531px And Max-Width 660px -----------------*/
+@media only screen and (min-width: 531px) and (max-width: 660px) {
+	/*----------------- Header -----------------*/
+	header{
+		padding-top: 20px;
+	}
+
+	/* Logo */
+	header a.launchpad {
+		float: none;
+		width: 100%;
+		display: inline;
+		text-align: center;
+		padding-right: 0;
+	}
+
+	/* Navigation */
+	header nav {
+		text-align: center;
+		margin-top: 40px;
+		float: none;
+	}
+	header nav a {
+		float: none;
+		padding-left: 20px;
+	}
+	header nav a:first-child {
+		padding-left: 0;
+	}
+
+	/* Header h1 */
+	header h1 {
+		margin-top: 40px;
+	}
+
+	/* Header h3 */
+	header h3 {
+		line-height: 30px;
+		margin: 20px 0;
+	}
+
+	/*----------------- Our Customers -----------------*/
+	.our-customers {
+		height: 700px;
+	}
+
+	/* Our customers figure */
+	.our-customers div.images-wrap figure {
+		width: 49%;
+		margin-left: 0;
+		padding-top: 42px;
+	}
+	.our-customers div.images-wrap figcaption{
+		margin-top: 20px;
+	}
+	.our-customers h1 {
+		padding: 0 1em;
+		font-size: 2.8em;
+	}
+
+	/*----------------- Footer -----------------*/
+	footer {
+		height: 100px;
+	}
+	footer nav {
+		width: 100%;
+		text-align: center;
+	}
+	footer p {
+		width: 100%;
+		float: none;
+		margin: 0;
+		text-align: center;
+	}
+}
+
+
+/*----------------- Min-Width 661px And Max-Width 800px -----------------*/
+@media only screen and (min-width: 661px) and (max-width: 800px) {
+	/*----------------- Our Customers -----------------*/
+	.our-customers {
+		height: 700px;
+	}
+	.our-customers div.images-wrap figure {
+		width: 40%;
+		margin-left: 0;
+		padding-top: 42px;
+	}
+	.our-customers div.images-wrap figcaption{
+		margin-top: 20px;
+	}
+	.our-customers h1 {
+		padding: 0 1em;
+		font-size: 2.8em;
+	}
+
+	/*----------------- Footer -----------------*/
+	footer {
+		height: 100px;
+	}
+	footer nav {
+		width: 100%;
+		text-align: center;
+	}
+	footer p {
+		width: 100%;
+		float: none;
+		margin: 0;
+		text-align: center;
+	}
+}
+
+/*----------------- Min-Width 801px And Max-Width 860px -----------------*/
+@media only screen and (min-width: 801px) and (max-width: 860px) {
+	/*----------------- Footer -----------------*/
+	footer {
+		height: 100px;
+	}
+	footer nav {
+		width: 100%;
+		text-align: center;
+	}
+	footer p {
+		width: 100%;
+		float: none;
+		margin: 0;
+		text-align: center;
+	}
+}
+
+/*----------------- Min-Width 801px And Max-Width 1000px -----------------*/
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+	/*----------------- Content -----------------*/
+	.content {
+		padding-top: 40px;
+	}
+
+	/* Content figure */
+	div.features figure {
+		width: 98%;
+		padding-top: 64px;
+	}
+
+	/*----------------- Our Customers -----------------*/
+	/* Our customers images-wrap */
+	.our-customers div.images-wrap {
+		height: 600px;
+	}
+	/* Our customers images-wrap figcaption */
+	.our-customers div.images-wrap figcaption {
+		width: 100%;
+	}
+	.our-customers div.images-wrap figcaption p {
+		text-align: center;
+	}
+	.our-customers div.images-wrap figcaption h5 {
+		display: inline;
+		text-align: center;
+	}
+	/* Our customers h2 */
+	.social-title h2 {
+		margin-bottom: 20px;
+	}
+
+	/*----------------- Social Links -----------------*/
+	.social-wrap {
+		height: 100px;
+		margin: 100px 0;
+	}
+}
